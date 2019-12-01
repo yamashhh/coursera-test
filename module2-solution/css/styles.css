@@ -2,14 +2,49 @@
   box-sizing: border-box;
 }
 
-.row {
-  margin: 5%;
+/********** base styles **********/
+
+h1 {
+  text-align: center;
+  margin: 5% auto;
 }
 
-.section {
-  background: pink;
-  margin: 10px;
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  padding: 5%;
+  clear: both;
+}
+
+section {
   border: 1px solid black;
+  background-color: blanchedalmond;
+  margin: 10px;
+}
+
+.container {
+  margin: 10%;
+}
+
+.menu-name {
+  float: right;
+  width: 40%;
+  border: 1px solid black;
+}
+
+#chicken {
+  background-color: peru;
+}
+
+#beef {
+  background-color: saddlebrown;
+}
+
+#sushi {
+  background-color: mediumorchid;
 }
 
 /********** desktop version **********/
