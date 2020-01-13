@@ -27,8 +27,8 @@ body {
 .navbar-brand a:focus {
   text-decoration: none;
 }
-#nav-list {
-  margin-top: 10px;
+.navbar-nav {
+  margin: 0 -15px;
 }
 #nav-list a {
   color: #000;
@@ -44,9 +44,8 @@ body {
 .navbar-header .icon-bar {
   border: 1px solid #000;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.nav > li:not(:last-child) {
+  border-bottom: solid #000;
 }
 /* END HEADER */
 
@@ -93,7 +92,6 @@ h3.menu-item-title {
     /* Restaurant name */
     margin: auto 0;
   }
-
   #collapsable-nav a {
     /* Collapsed nav menu text */
     font-size: 1.2em;
